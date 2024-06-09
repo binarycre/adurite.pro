@@ -9,34 +9,10 @@ export default function Home() {
       link: "https://www.ebay.com/itm/145796452288"
     },
     {
-      name: "Product 2",
-      price: "$20",
-      img: "https://i.ebayimg.com/images/g/redacted2.webp",
-      link: "https://www.ebay.com/itm/redacted2"
-    },
-    {
-      name: "Product 2",
-      price: "$20",
-      img: "https://i.ebayimg.com/images/g/redacted2.webp",
-      link: "https://www.ebay.com/itm/redacted2"
-    },
-    {
-      name: "Product 2",
-      price: "$20",
-      img: "https://i.ebayimg.com/images/g/redacted2.webp",
-      link: "https://www.ebay.com/itm/redacted2"
-    },
-    {
-      name: "Product 2",
-      price: "$20",
-      img: "https://i.ebayimg.com/images/g/redacted2.webp",
-      link: "https://www.ebay.com/itm/redacted2"
-    },
-    {
-      name: "Product 2",
-      price: "$20",
-      img: "https://i.ebayimg.com/images/g/redacted2.webp",
-      link: "https://www.ebay.com/itm/redacted2"
+      name: "Roblox Dragon Adventures | Solarizon",
+      price: "$7.69",
+      img: "https://i.ebayimg.com/images/g/lisAAOSwtgtlPlx2/s-l1600.webp",
+      link: "https://www.ebay.com/itm/145399823766"
     }
   ];
 
