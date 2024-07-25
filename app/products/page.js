@@ -42,7 +42,7 @@ export default function Home() {
             <img className="rounded-md" src={product.img} alt={product.name} />
             <h3 className="text-lg" style={{ fontWeight: 500 }}>{product.name}</h3>
             <p className="text-red-500">{product.price}</p>
-            <a href={product.link} className="btn btn-accent text-white rounded-md">Purchase on eBay</a>
+            <a href={product.link} className="btn btn-accent text-white rounded-md transform transition duration-500 hover:scale-14">Purchase on eBay</a>
           </div>
         ))}
       </div>
