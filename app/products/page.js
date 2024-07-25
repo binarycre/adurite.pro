@@ -38,11 +38,13 @@ export default function Home() {
     <main className="flex min-h-screen flex-col justify-between p-24">
       <div className="grid grid-cols-5">
         {products.map((product, index) => (
-          <div key={index} className="text-black p-5 max-w-[300px] rounded-md text-center mb-10" style={{ backgroundColor: "white" }}>
-            <img className="rounded-md" src={product.img} alt={product.name} />
+          <div key={index} className="text-black p-5 max-w-[300px] rounded-md text-center mb-10 hover:translate-x-[-2px] hover:translate-y-[-2px]" style={{ backgroundColor: "white", transitionDuration: "200ms" }}>
+            <div className="aspect-square flex items-center justify-center">
+              <img className="rounded-md" src={product.img} alt={product.name} />  
+            </div>
             <h3 className="text-lg" style={{ fontWeight: 500 }}>{product.name}</h3>
             <p className="text-red-500">{product.price}</p>
-            <a href={product.link} className="btn btn-accent text-white rounded-md hover:translate-x-[-4px] hover:translate-y-[-4px] hover:rounded-md hover:shadow-[2px_2px_0px_black]">Purchase on eBay</a>
+            <a href={product.link} className="btn btn-accent text-white rounded-md hover:translate-x-[-2px] hover:translate-y-[-2px] hover:shadow-[2px_2px_0px_black]">Purchase on eBay</a>
           </div>
         ))}
       </div>
