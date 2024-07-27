@@ -22,7 +22,7 @@ export default function Home() {
     },
     {
       name: "Roblox Creatures of Sonaria (COS) | Creatures",
-      price: "$0.99 - $5.99",
+      price: "$0.99 - $4.99",
       img: "https://i.ebayimg.com/images/g/2yoAAOSw40hmoRsj/s-l1600.webp",
       link: "https://www.ebay.com/itm/145908991806"
     },
